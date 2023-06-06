@@ -1,0 +1,96 @@
+@import url("https://fonts.cdnfonts.com/css/gugi");
+body{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+.container-main{
+    height: 90vh;
+    width: 70vw;
+    margin: 49px 0 0 222px;
+    background-color: white;
+    box-shadow: rgba(1, 1, 1, 0.05) 0px 4px 16px, rgba(1, 1, 1, 0.05) 0px 8px 32px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+.container-left {
+    /* border: 1px solid red; */
+    height: 85vh;
+    width: 30vw;
+    margin-top: 25px;
+}
+
+.container-right {
+    /* border: 1px solid blue; */
+    height: 85vh;
+    width: 35vw;
+    margin-top: 25px;
+
+}
+.container-left .images {
+    height:90px;
+    padding: 15px 22px;
+
+}
+.container-left h3{
+    text-align: center;
+    font-family: "Gugi", sans-serif;
+}
+.form-field{
+    /* border: 1px solid; */
+    display: flex;
+    margin: 12px;
+    justify-content: center;
+}
+.form-field input{
+    height: 5vh;
+    width: 25vw;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(239, 238, 238);
+    padding: 4px 12px;
+    
+}
+form{
+    text-align: center;
+    font-family: "Gugi", sans-serif;
+    font-size: 0.8rem;
+}
+form .forgot{
+    margin-left: 200px;
+}
+a{
+    color:#f7b619;
+    text-decoration: none;
+}
+input[type="submit"]{
+    cursor: pointer;
+    color: black;
+    background-color: #f7b619;
+}
+input[type="submit"]:hover{
+    color: black;
+    background-color: #17d21a;
+}
+.social-login{
+    display: flex;
+    justify-content: space-around;
+}
+.social-login button{
+    cursor: pointer;
+    height: 6vh;
+    width: 13vw;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 5px;
+
+}
+.social-login button:hover{
+    background-color: rgb(64, 212, 44);
+}
+.container-right img {
+    height: 480px;
+    width: 440px;
+    border-radius: 5px;
+}
